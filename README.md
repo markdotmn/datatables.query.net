@@ -3,6 +3,7 @@ This is a quick and simple package that handles requests and output for DataTabl
 
 Example usage below:
 
+```cs
 public IHttpActionResult Post(SearchRequest request)
 {
   //Where Data is a flattened object(single level only) that you want to use in a datatable.
@@ -11,3 +12,4 @@ public IHttpActionResult Post(SearchRequest request)
 	var output = dt.ProcessDataTablePost(data,request);
 	return Ok(output);
 }
+```
