@@ -88,24 +88,24 @@ namespace YourAppNamespace
 ```
 **An example of the HTML that would accompany the JavaScript seem below.**
 ```html
-	<head>
-		<!--CDN sources can be used on the page or yoy can include these manually, if you've already included this; remove these lines-->
-		<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-		<!--If you're already including JQuery remove the line below-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<table id="table" class="display no-wrap">
-			<thead>
-				<tr>
-					<th>heading1</th>
-					<th>heading2</th>
-					<th>heading3</th>
-					<th>heading4</th>
-					<th>heading5</th>
-				</tr>
-			</thead>
-		</table>
-	</body>
+<head>
+	<!--CDN sources can be used on the page or yoy can include these manually, if you've already included this; remove these lines-->
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+	<!--If you're already including JQuery remove the line below-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<table id="table" class="display no-wrap">
+		<thead>
+			<tr>
+				<th>heading1</th>
+				<th>heading2</th>
+				<th>heading3</th>
+				<th>heading4</th>
+				<th>heading5</th>
+			</tr>
+		</thead>
+	</table>
+</body>
 ```
