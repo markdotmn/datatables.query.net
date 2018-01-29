@@ -47,8 +47,8 @@ namespace YourAppNamespace
 			"phone": "+1 (830) 441-2569",
 			"address": "801 Liberty Avenue, Lorraine, District Of Columbia, 2946"
 		}
-	]
-	"Draw": 25
+	],
+	"Draw": 25,
 	"RecordsFiltered": 53,
 	"RecordsTotal": 5102
 }
